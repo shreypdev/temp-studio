@@ -1,5 +1,5 @@
 const http = require('http');
-const MARKER = 'C';
+const MARKER = 'D';
 const body = () => JSON.stringify({
   ok: true, marker: MARKER,
   railway_git_commit_sha: process.env.RAILWAY_GIT_COMMIT_SHA || null,
